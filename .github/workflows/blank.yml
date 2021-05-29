@@ -34,8 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-- name: Cache
-  uses: actions/cache@v2.1.6
+-name: Cache
+  uses:actions/cache@v2.1.6
   with:
     # A list of files, directories, and wildcard patterns to cache and restore
     path: 
